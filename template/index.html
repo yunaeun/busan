@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/button.css">
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+</head>
+
+<body style="background-color:rgb(195, 231, 255);">
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>
+            <div style=" font-size:2.5em;  color: rgb(255, 255, 255);">
+                smart care system
+            </div>
+        </p>
+        <img style="width:270px; height:230px; border-radius: 15px;" src="../static/sonsodock.jpg">
+        <br>
+        <br><br>
+        <button type="button" id="button" value="PLAY" onclick="play()">시작하기</button>
+        <audio id="audio" src="../static/스마트케어시스템.mp3"></audio>
+    </center>
+</body>
+
+</html>
